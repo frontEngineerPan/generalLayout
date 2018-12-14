@@ -1,0 +1,51 @@
+body{
+	overflow-y:scroll;/*下拉自适应*/
+}
+header{
+	position: fixed;/*固定在头部*/
+	top: 0;
+	left: 0;
+	width:100%;
+	height:25px;
+	background-color: #1369bf;
+	color: #fff;
+	z-index: 999;/*图层级别最高级*/
+}
+nav{
+	position: fixed;/*固定在头部*/
+	top: 25px;
+	left: 0;
+	width:100%;
+	height:50px;
+	background-color: #1369bf;
+	color: #fff;
+	z-index: 999;/*图层级别最高级*/	
+}
+nav ul li{
+	float: left;
+	margin-right: 25px;
+}
+section{
+	position:relative;
+	top:75px;
+	left:10%;
+	width: 60%;
+	height:1500px;	
+	display: inline-block;
+	background-color:#CCCCFF;
+}
+aside{
+	position:fixed;
+	top:85px;
+	right:5%;
+	width: 10%;
+	height:850px;
+	display: inline-block;
+	background-color:#CCCCFF;
+}
+footer{
+	position:relative;
+	margin：0 auto;
+	display: block;
+	text-align: center;
+}
